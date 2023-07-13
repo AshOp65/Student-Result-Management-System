@@ -1,0 +1,126 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 30px;
+    overflow-x: hidden;
+    color: rgb(13, 13, 13);
+    font-family: 'Flamenco', cursive;
+}
+header{
+    background-image: url(../css/pexels-sohail-nachiti-807598.jpg);
+    height:150vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.clearfix:after{
+    content: " ";
+    visibility:hidden ;
+    display: block;
+    height: 9px;
+    clear: both;
+}
+.row{
+    max-width: 1180px;
+    margin:0 auto;
+}
+
+.main-nav{
+    float: right;
+    margin-top: 30px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.main-nav li a{
+    padding: 5px 2px;
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 100;
+}
+.main-nav li a:hover{
+    color: rgb(204, 229, 81);
+    font-weight: 1000;
+}
+
+
+.table{
+    margin-left:130px;
+}
+.search{
+    margin-left: 60px;;
+    margin-top:80px;
+    margin-bottom: 10px;
+    color: black;
+    text-shadow:  #fff 0px 0px 1px,   #fff 0px 0px 1px,   #fff 0px 0px 1px;    
+}
+.tblheading{
+    color: rgb(255,255,255);
+    font-size: 1.3rem;
+    text-align: left;
+    padding-bottom: 0.3rem;
+    padding-top: 0.3rem;
+}
+.tbldata{
+    width:500px;
+    height: 30px;
+}
+.tbldata1{
+    width:500px;
+    height: 70px;
+    font-size: 25px;
+}
+.submit{
+    width:100px; 
+    height: 45px; 
+    border: 12px solid;
+    border-radius: 12px 0 12px 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.main-content-header{
+    border-top: 2px solid #fff;
+}
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.form-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 350px;
+    height: 600px;
+}
+input{
+    width:100%;
+    height: 40px;
+    border: 2px solid #ca12ae;
+    border-radius: 12px 0 12px 0;
+    margin-bottom: 15px;
+    background-color:rgb(58, 57, 57);
+    color: #fff;
+    font-size: 20px;
+    
+}

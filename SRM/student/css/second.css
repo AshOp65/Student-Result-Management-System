@@ -1,0 +1,180 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 30px;
+    overflow-y: hidden;
+    color: white;
+    font-family: 'Flamenco';
+
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(./pexels-sohail-nachiti-807598.jpg);
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.clearfix:after{
+    content: " ";
+    visibility:hidden ;
+    display: block;
+    height: 9px;
+    clear: both;
+}
+.row{
+    max-width: 1180px;
+    margin:0 auto;
+}
+.main-nav{
+    float: right;
+    margin-top: 30px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.main-nav li a{
+    padding: 5px 2px;
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 100;
+}
+.main-nav li a:hover{
+    color: yellow;
+    font-weight: 1000;
+}
+
+
+
+.table{
+    margin-left:650px;
+}
+.search{
+    margin-left:670px;
+    margin-top:20px;
+}
+.name1{
+    padding-right: 5px;
+}
+.standered1{
+   padding-right: 15px;
+}
+.submit{
+    width: 5rem;
+    height: 2rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: rgb(5, 224, 114);
+    cursor: pointer;
+}
+.main-content-header{
+    border-top: 2px solid white;
+    border-bottom: 2px solid; 
+    
+}
+h2{
+    margin-top: 15px;
+    margin-bottom:25px;
+    margin-left: 260px;
+    color: rgb(21, 233, 166);
+    font-weight: bolder;
+    text-shadow: 3px 3px black;
+}
+.table1{
+    margin-left: 200px;
+    margin-top: 5px;
+}
+.table2{
+    margin-left: 280px;
+    margin-top: 15px;
+}
+
+.table3{
+    margin-left: 260px;
+    margin-top: 4px;
+}
+.table3{
+    margin-top: 5px;
+    
+}
+.table4{
+    margin-top: 4px;
+    margin-left: 200px;
+}
+.h3{
+    margin-left: 370px;
+    margin-top: 5px;
+}
+.h_3{
+    margin-left: 370px;
+    margin-top: 35px;
+    font-size: 2rem;
+    color: #e3b2b2;
+}
+.box{
+    height: 2.1rem;
+    width: 18rem;
+    border: 2px solid rgb(3, 189, 124);
+    font-size: 18px;
+    
+
+}
+p{
+    margin-left: 375px;
+}
+h4{
+    margin-left: 285px;
+}
+.colorchange1{
+    animation: colorchange1 2s infinite;
+    margin-left: 35px;
+}
+@keyframes colorchange1{
+    0%{color:#1e0ce7;}
+    25%{color:#bccc11;}
+    75%{color:#fff;}
+    100%{color:#08d870;}
+}
+.colorchange2{
+    animation: colorchange2 2s infinite;
+    margin-left: 35px;
+}
+@keyframes colorchange2{
+    0%{color:#fff;}
+    25%{color:red;}
+    75%{color:blue;}
+    100%{color:orange;}
+}
+.colorchange3{
+    animation: colorchange3 2s infinite;
+    margin-left: 35px;
+}
+@keyframes colorchange3{
+    0%{color:#fff;}
+    25%{color:#bf55ec;}
+    75%{color:#fff;}
+    100%{color:#bf55ec;}
+}
+.class{
+    margin-left: 9px;
+    background:transparent;
+    color:white;
+    text-align: center;
+}
+.rollno{
+    margin-left: 5px;
+    background:transparent;
+    color:white;
+    text-align: center;
+}
+.table1,.table2,.table3,.table4 th{
+    font-size: 2rem;
+    text-align: left;
+    color: white;
+    text-shadow: 2px 2px black;
+}
